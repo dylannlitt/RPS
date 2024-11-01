@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "utils.h"
 #include <string.h>
+#define _CRT_SECURE_NO_WARNINGS
 
 void rock_paper_scissors(const char* player1, const char* player2, char* result) {
     if ((strcmp(player1, "Rock") && strcmp(player1, "Paper") && strcmp(player1, "Scissors")) ||
